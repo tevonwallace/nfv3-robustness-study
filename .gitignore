@@ -1,0 +1,23 @@
+# Datasets — do not commit (large; download from source)
+data/
+*.csv
+*.parquet
+
+# Results / outputs
+results/
+*.json
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
